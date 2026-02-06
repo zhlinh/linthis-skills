@@ -1,0 +1,45 @@
+{
+  "name": "linthis-skills",
+  "owner": {
+    "name": "zhlinh"
+  },
+  "metadata": {
+    "description": "Skills for linthis multi-language linter with AI-powered fixing",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "linthis-skills",
+      "source": "./",
+      "description": "Skills for linthis - a fast, cross-platform multi-language linter and formatter. Includes AI-powered code fixing, lint checking, report generation, and git hook integration. Supports C++, Python, JavaScript, TypeScript, Go, Rust, and more.",
+      "version": "0.1.0",
+      "author": {
+        "name": "zhlinh",
+        "email": "github@zhlinh"
+      },
+      "homepage": "https://github.com/zhlinh/linthis-skills",
+      "repository": "https://github.com/zhlinh/linthis-skills",
+      "license": "MIT",
+      "keywords": [
+        "claude-skill",
+        "claude-code",
+        "linting",
+        "formatting",
+        "code-quality",
+        "ai-fix",
+        "multi-language",
+        "pre-commit",
+        "git-hooks"
+      ],
+      "category": "development",
+      "tags": [
+        "linting",
+        "code-quality",
+        "ai-fix",
+        "formatting"
+      ],
+      "skills": "./skills/",
+      "commands": "./commands/"
+    }
+  ]
+}
