@@ -14,9 +14,14 @@ Claude Code skills for [linthis](https://github.com/zhlinh/linthis) - a fast, cr
 ### Via Marketplace (Recommended)
 
 ```bash
-# In Claude Code
+# In Claude Code, add the marketplace source first
 /plugin marketplace add zhlinh/linthis-skills
+
+# Then install the plugin
+/plugin install linthis-skills@zhlinh
 ```
+
+Restart Claude Code to load the plugin.
 
 ### Manual Installation
 
