@@ -25,11 +25,15 @@ Restart Claude Code to load the plugin.
 
 ### Manual Installation
 
-Clone to your Claude Code plugins directory:
-
 ```bash
-git clone https://github.com/zhlinh/linthis-skills ~/.claude/plugins/linthis-skills
+# Clone the repo
+git clone https://github.com/zhlinh/linthis-skills
+
+# Install from local path
+claude plugin install ./linthis-skills
 ```
+
+Restart Claude Code to load the plugin.
 
 ## Skills
 
