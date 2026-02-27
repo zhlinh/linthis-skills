@@ -35,6 +35,14 @@ claude plugin install ./linthis-skills
 
 Restart Claude Code to load the plugin.
 
+## Updating
+
+Skills update automatically when you update the plugin:
+
+```bash
+/plugin update linthis-skills
+```
+
 ## Skills
 
 | Skill | Description |
